@@ -1,0 +1,33 @@
+{
+    "packageDirectories": [
+        {
+            "path": "firstCoursePackage",
+            "default": true,
+            "package": "FirstCoursePackage",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT"
+        },
+        {
+            "path": "secondCoursePackage",
+            "default": false,
+            "dependencies": [
+                {
+                    "package": "FirstCoursePackage",
+                    "version": "0.1.0.LATEST"
+                }
+            ],
+            "package": "SecondCoursePackage",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT"
+        }
+    ],
+    "namespace": "jdsfdxcourse",
+    "sfdcLoginUrl": "https://login.salesforce.com",
+    "sourceApiVersion": "51.0",
+    "packageAliases": {
+        "FirstCoursePackage": "0Ho5e000000PB1qCAG",
+        "FirstCoursePackage@0.1.0-1": "04t5e000000Djj3AAC",
+        "FirstCoursePackage@0.1.0-2": "04t5e000000Djj8AAC",
+        "SecondCoursePackage": "0Ho5e000000PB1vCAG"
+    }
+}
